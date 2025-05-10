@@ -11,7 +11,7 @@ function App() {
   </span>
   <div>
     <p className="text-gray-700 dark:text-gray-400">
-      <span className="font-medium text-gray-950 dark:text-white">Tom Watson</span> mentioned you in
+      <span className="font-medium text-gray-100 dark:text-white">Tom Watson</span> mentioned you in
       <span className="font-medium text-gray-950 dark:text-white">Logo redesign</span>
     </p>
     <time className="mt-1 block text-gray-500" datetime="9:37">9:37am</time>
