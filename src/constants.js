@@ -39,9 +39,9 @@ import agcLogo from './assets/company_logo/agc_logo.png';
 import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
 // Education Section Logo's
-import glaLogo from './assets/education_logo/gla_logo.png';
-import bsaLogo from './assets/education_logo/bsa_logo.png';
-import vpsLogo from './assets/education_logo/vps_logo.png';
+import aktu from './assets/education_logo/aktu.png';
+import up from './assets/education_logo/up_bord.png';
+import adca from './assets/education_logo/adca.png';
 
 // Project Section Logo's
 import githubdetLogo from './assets/work_logo/github_det.png';
@@ -171,40 +171,43 @@ export const SkillsInfo = [
   export const education = [
     {
       id: 0,
-      img: glaLogo,
-      school: "GLA University, Mathura",
-      date: "Sept 2022 - July 2024",
-      grade: "7.81 CGPA",
-      desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-      degree: "Master of Computer Applications - MCA",
+      img: aktu,
+      school: "Dr. APJ abdul kalam technical university , Lucknow",
+      date: "sept 2022 - present..",
+      grade: "8.1 CGPA",
+      desc: "I am currently pursuing a Bachelor of Technology (B.Tech) in Information Technology from Dr. A.P.J. Abdul Kalam Technical University (AKTU), Lucknow, and I am in my final year. Throughout my academic journey, I have built a solid foundation in programming, software development, and core computer science concepts. I have successfully completed courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. In addition to academics, I have actively participated in technical workshops, coding events, and hackathons, which have significantly enhanced my practical skills and broadened my understanding of real-world applications. My time at AKTU has played a crucial role in shaping both my technical expertise and professional growth.",
+      degree: "Bachelor of Technology (B.Tech) ",
     },
-    {
+
+     {
       id: 1,
-      img: bsaLogo,
-      school: "BSA College, Mathura",
-      date: "Sept 2018 - Aug 2021",
-      grade: "73.2%",
-      desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "Bachelor of Science - BSC (Computer Science)",
+      img: adca,
+      school: "ICC Computer Training Institute , Bhatpar Rani , Deoria",
+      date: "Aug 2021 - Aug 2022 ",
+      grade: "95%",
+      desc: "I have successfully completed the Advanced Diploma in Computer Applications (ADCA) from ICC, Bhatpar Rani. During this course, I gained strong foundational knowledge of computer fundamentals, MS Office (Word, Excel, PowerPoint), internet usage, basic programming, and database management. This diploma helped me build confidence in using computers for both personal and professional tasks.",
+      degree: "Advanced Diploma in Computer Applications (ADCA) ",
     },
     {
       id: 2,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2017 - March 2018",
-      grade: "78%",
-      desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-      degree: "CBSE(XII) - PCM with Computer Science",
+      img: up,
+      school: "MMM intermediat College Bhatpar Rani , Deoria U.P",
+      date: "Sept 2019 - Aug 2021",
+      grade: "76.2%",
+      desc: "I completed my class 12 education from MMM Intermediat College , Bhatpar Rani ,Deorai  under the UP board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science",
+      degree: "UP(XII)- PCM with Computer Science",
     },
+  
     {
       id: 3,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2015 - March 2016",
-      grade: "87.5%",
-      desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-      degree: "CBSE(X), Science with Computer Application",
+      img: up,
+      school: "MMM intermediat College Bhatpar Rani , Deoria U.P",
+      date: "Sept 2018 - Aug 2019",
+      grade: "72.2%",
+      desc: "I completed my class 10 education from MMM Intermediat College , Bhatpar Rani ,Deorai  under the UP board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science",
+      degree: "UP(X)- PCM with Computer Science",
     },
+  
   ];
   
   export const projects = [
